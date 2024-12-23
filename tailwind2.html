@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!-- navber -->
+ <div class="mx-auto flex justify-between items-center bg-green-500 py-2 ">
+    <div class="flex items-center ml-5 font-bold">
+        <h2>logo</h2>
+    </div>
+    <div>
+        <ul class="flex gap-5 justify-center items-center">
+            <li class="hover:bg-red-500 py-2 px-2"><a href="#">Home</a></li>
+            <li  class="hover:bg-red-500 py-2 px-2"><a href="#">About</a></li>
+            <li  class="hover:bg-red-500 py-2 px-2"><a href="#">Service</a></li>
+            <li  class="hover:bg-red-500 py-2 px-2"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+ </div>
+<!-- navber end -->
+
+ <!-- Hero section -->
+<section style="
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)),url(./img/resturentimg.jpg)center/cover no-repeat;"
+    class="relative h-screen flex justify-center items-center">
+    <div class="text-white text-center">
+        <h2 class="text-5xl md:text-7xl text-center font-playfair mb-6">
+            La Maison
+        </h2>
+        <p class="text-center text-xl md:text-2xl font-montserrat mb-6">
+            Fine Dining And Experience
+        </p>
+        <a href="#"class="bg-orange-600 py-4 px-6 rounded-3xl mt-8 text-sm md:text-base">
+        VIEW OUR MENU</a>
+    </div>
+</section>
+<!-- Hero section end-->
+
+ <!-- About setion -->
+  <div class="flex gap-5 justify-center items-center text-start mx-10 mt-10">
+    <div class="w-5/12 ">
+        <img class="w-full rounded-xl" src="img/about.jpg" alt="">
+    </div>
+    <div class="w-7/12">
+        <h2 class="text-2xl font-bold text-green-500">This is About</h2>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex sunt dolores error itaque soluta nam qui, quo debitis aut voluptate optio atque accusamus maxime eum ab esse nihil corrupti nobis. Modi error repellendus fugiat dolore voluptas laudantium? Non sed reiciendis cumque, culpa sapiente accusamus ab provident quam, voluptatibus libero vero?</p>
+        <button class="bg-green-500 py-2 px-2 rounded-md hover:bg-red-500 w-4/12">see more</button>
+    </div>
+  </div>
+  
+ <!-- About setion end-->
+
+ <!-- our spceialtice section -->
+  <section>
+    <div class="container mx-auto px-4 mb-10">
+        <h2 class="text-center text-2xl md:text-4xl font-playfair mb-10">
+            Our specialties
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="relative group overflow-hidder">
+                <img src="img/servise.jpg" alt="signature dish" class="w-full h-72 rounded-lg group-hover:scale-110 transition-300">
+                <div class="absolute inset-0 flex bg-black group-hover:bg-opacity-50 transition duration-300 bg-opacity-40 text-white rounded-lg items-center justify-center">
+                    <div class="text-center">
+                        <h2 class="text-xl md:text-2xl font-playfair">Signature Dishes</h2>
+                        <p>Crafted With Passion</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group overflow-hidder">
+                <img src="img/service2.jpg" alt="signature dish" class="w-full h-72 rounded-lg group-hover:scale-110 transition-300">
+                <div class="absolute inset-0 flex bg-black group-hover:bg-opacity-50 transition duration-300 bg-opacity-40 text-white rounded-lg items-center justify-center">
+                    <div class="text-center">
+                        <h2 class="text-xl md:text-2xl font-playfair">Signature Dishes</h2>
+                        <p>Crafted With Passion</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group overflow-hidder">
+                <img src="img/service3.jpg" alt="signature dish" class="w-full h-72 rounded-lg group-hover:scale-110 transition-300">
+                <div class="absolute inset-0 flex bg-black group-hover:bg-opacity-50 transition duration-300 bg-opacity-40 text-white rounded-lg items-center justify-center">
+                    <div class="text-center">
+                        <h2 class="text-xl md:text-2xl font-playfair">Signature Dishes</h2>
+                        <p>Crafted With Passion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- our spceialtice section end -->
+
+  
+  
+
+
+
+</body>
+</html>
